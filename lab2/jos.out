@@ -1,0 +1,22 @@
+*** Now run 'make gdb'.
+***
+6828 decimal is 15254 octal!
+Physical memory: 66556K available, base = 640K, extended = 65532K
+check_page_free_list done
+check_page_alloc() succeeded!
+pp2 f011afe8
+kern_pgdir f0118000
+kern_pgdir[0] is 3ff007
+check_page() succeeded!
+Virtual Address ef000000 mapped to Physical Address 119000
+Virtual Address ef400000 mapped to Physical Address 519000
+Virtual Address efff8000 mapped to Physical Address 10d000
+Virtual Address f0000000 mapped to Physical Address 115000
+Virtual Address f0000000 mapped to Physical Address 0
+Virtual Address 0 mapped to Physical Address 10000000
+check_kern_pgdir() succeeded!
+check_page_free_list done
+check_page_installed_pgdir() succeeded!
+Welcome to the JOS kernel monitor!
+Type 'help' for a list of commands.
+qemu: terminating on signal 15 from pid 1432
